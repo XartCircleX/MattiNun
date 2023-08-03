@@ -4,20 +4,29 @@ ponemos la ruta del proyecto. (seleccionando gitbash con click derecho dentro de
  
 - git init / inicia el proyecto.
 - git config --global user.name [XartCircleX] / identificar el usuario ( necesario ) 
-                                   usuario
+                                  {usuario}
 - git config --global user.email [bryanalexisdelgadolopez1@gmail.com] / identificar email (necesario)
-- git config config --global credential.[MattiNun] / automatiza los dos anteriores comandos
-					nombre del
-				        repositorio
+- git config --global credential.[MattiNun] / automatiza los dos anteriores comandos
+				 {nombre del
+				 repositorio}
 - cd .. / retroceder carpeta
 - cd (nombre de carpeta) / accede a la carpeta
 - git remote add origin [https://github.com/XartCircleX/MattiNun.git] / enlaza el proyecto a github
-                                   link copiado de github
+                                  {link copiado de github}
 - git status / estatus de cambios
 - clear / limpia los comandos
 - git add / seleccionar los cambios que queremos subir.
 - git add . / selecciona todo el contenido
 - git add [index.html] / seleccionamos solo un archivo.
-           nombre de
-	    archivo
-- git commit -m "my first commit"/ confirma la subida del archivo y le pone nombre
+           {nombre de
+	    archivo}
+- git commit -m "my first commit"/ confirma la subida del archivo y lo etiqueta
+- git push -u origin [master] / sube el archivo ubicado en la rama master
+                      {rama}
+- git branch / ver ramas
+- git branch [frontend] / crea rama
+              {nombre de
+	        rama}
+- git checkout [frontend] / usamos esas ramas
+                {nombre de
+	          rama}
